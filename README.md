@@ -1,5 +1,5 @@
 ## **Scripts to prepare input files and pool compounds into mixtures.  Scripts have detailed information using the --help option.**
-### This workflow is broken down into 4 steps. You may not need all the steps.
+#### This workflow is broken down into 4 steps. You may not need all the steps.
 ##### Step1 
 This script will take a file with plate and structure information and add an exact mass and molecular formula column.  This is calculated using RDKIT.
 
