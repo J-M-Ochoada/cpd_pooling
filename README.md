@@ -5,7 +5,7 @@ This script will take a file with plate and structure information and add an exa
 
 ##### Step2 
 
-This script is the main pooling script where it will take the output from Step1 which is a file containing plate information with mass and formula.  The script first sorts by exact mass and then sequentially places compounds into the plate.  This aims to give two results.  Pools with minimal mass clashes in each well, and a normally distributed mass values in each well.  The script also outputs diagnostic files to let the user know how many mass clashes are in each well.  The user can adjust the number of compounds per well or number of wells to balance samples and mass clashes.  Performance depends on the distribution of mass values of the compounds as well as the resolution of the users mass spec analysis method. In this publication the resolution was >0.05 amu.
+This script is the main pooling script where it will take the output from Step1 which is a file containing plate information with mass and formula.  The script first sorts by exact mass and then sequentially places compounds into the plate.  This aims to give two results.  Pools with minimal mass clashes in each well, and a normally distributed mass values in each well.  The script also outputs diagnostic files to let the user know how many mass clashes are in each well as defined by the input mass resolution.  The user can adjust the number of compounds per well or number of wells to balance samples and mass clashes.  Performance depends on the distribution of mass values of the compounds as well as the resolution of the users mass spec analysis method. In this publication the resolution was >0.05 amu.
 
 ##### Step3 
 
