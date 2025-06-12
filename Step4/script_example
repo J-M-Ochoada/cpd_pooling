@@ -1,0 +1,1 @@
+python pool2asms.py -d comma --dest_plate PoolPlate --dest_well PoolWell --sample_col sampleid --formula_col MolecularFormula
