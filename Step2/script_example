@@ -1,0 +1,1 @@
+python round_robin_plates_report_multiplate.py PlateSummaryE15L00001464_example_exactmass_and_formula.txt -c 100 -t 0.05 -d tab --sample_column sampleid --ExactMass_column ExactMass --plate_format 1536
