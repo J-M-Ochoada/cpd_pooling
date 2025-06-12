@@ -1,0 +1,1 @@
+python pool2echo.py output_plate1536_compounds_20250612_152116.csv echo_out -d comma --src_plate plateid --src_well well --dest_plate PoolPlate --dest_well PoolWell --tv 5 --log_file logfile.txt

@@ -1,0 +1,1 @@
+python calc_exact_mass_and_formula.py --sample_column sampleid --smiles_column MOLSMILES PlateSummaryE15L00001464_example.txt PlateSummaryE15L00001464_example
